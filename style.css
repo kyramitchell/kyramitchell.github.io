@@ -131,134 +131,87 @@ footer {
   padding: 40px 0;
   font-size: 14px;
 }
-/* WBEZ NPR SECTION */
-.wbez {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  border-top: 1px solid #2a2a2a;
-}
 
-.wbez h2 {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 10px;
-  letter-spacing: 0.12em;
-}
-
-.wbez-subtitle {
-  text-align: center;
-  color: #a7a7a7;
-  margin-bottom: 40px;
-  font-size: 16px;
-}
-
-.wbez-item {
-  margin-bottom: 35px;
-}
-
-.wbez-item h3 a {
-  color: #d6a86b;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.wbez-item h3 a:hover {
-  text-decoration: underline;
-}
-
-.wbez-role {
-  margin-top: 4px;
-  color: #a7a7a7;
-  font-size: 14px;
-  letter-spacing: 0.08em;
-}
-
-/* BUTTON */
-.wbez-button-wrapper {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.wbez-button {
-  display: inline-block;
-  padding: 14px 26px;
-  background: #d6a86b;
-  color: #000;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-/* SECTION DIVIDER */
+/* ————————————————
+   SECTION DIVIDER
+——————————————— */
 .section-divider {
-  width: 100%;
-  height: 1px;
-  background: #2a2a2a;
-  margin: 50px 0;
+    width: 100%;
+    height: 1px;
+    background: #2a2a2a;
+    margin: 60px 0;
 }
 
-/* WBEZ NPR SECTION */
+/* ————————————————
+   WBEZ NPR SECTION
+——————————————— */
 .wbez {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px 20px 60px;
-  text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    text-align: center;
 }
 
 .wbez-title {
-  font-size: 32px;
-  letter-spacing: 0.12em;
-  margin-bottom: 6px;
+    font-size: 32px;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: 300;
 }
 
 .wbez-subtitle {
-  color: #a7a7a7;
-  margin-bottom: 40px;
-  font-size: 16px;
-  letter-spacing: 0.07em;
+    color: #a7a7a7;
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 
 /* ITEM LIST */
-.wbez-item {
-  margin-bottom: 40px;
+.wbez-list {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-bottom: 40px;
 }
 
 .wbez-item h3 {
-  margin-bottom: 6px;
+    margin: 0;
+    font-size: 20px;
+    color: #f5f5f5;
+    font-weight: 300;
 }
 
-.wbez-item h3 a {
-  color: #d6a86b;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 400;
+.wbez-item a {
+    color: #d6a86b;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
 }
 
-.wbez-item h3 a:hover {
-  opacity: 0.8;
+.wbez-item a:hover {
+    opacity: 0.7;
 }
 
 .wbez-role {
-  margin-top: 3px;
-  color: #a7a7a7;
-  font-size: 14px;
-  letter-spacing: 0.1em;
+    margin-top: 8px;
+    color: #a7a7a7;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 /* BUTTON */
 .wbez-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 14px 28px;
-  background: #d6a86b;
-  color: #000;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 0.05em;
+    display: inline-block;
+    padding: 14px 32px;
+    border: 1px solid #d6a86b;
+    border-radius: 8px;
+    color: #d6a86b;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
 }
 
 .wbez-button:hover {
-  opacity: 0.9;
+    background: #d6a86b;
+    color: #000;
 }
