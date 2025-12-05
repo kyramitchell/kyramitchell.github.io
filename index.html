@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyra Mitchell — Managing Producer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- STICKY HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="name">KYRA MITCHELL</h1>
+      <p class="title">Managing Producer</p>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h2 class="hero-name">KYRA MITCHELL</h2>
+    <p class="hero-title">Managing Producer</p>
+
+    <button class="view-work-btn" onclick="scrollToWork()">VIEW WORK</button>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <p>
+      I’m a Managing Producer who blends documentary storytelling with a social-work lens.
+      I love creating work that feels human. My background spans education, community impact,
+      and global production. I’m at my best when I’m shaping meaningful narratives that empower others.
+    </p>
+  </section>
+
+  <!-- WORK SECTION -->
+  <section class="work" id="work">
+    <h2>Selected Work</h2>
+
+    <!-- PROJECTS -->
+    <div class="projects">
+
+      <!-- PROJECT TEMPLATE -->
+      <div class="project" onclick="toggleVideo('v1')">
+        <img src="https://img.youtube.com/vi/lC7F3fV5jPM/hqdefault.jpg" class="thumb" />
+        <h3>Radical Craft: Arts Education at Hull-House, 1889–1935</h3>
+        <p class="role">Producer & Editor • Chicago</p>
+
+        <div id="v1" class="video hidden">
+          <iframe src="https://www.youtube.com/embed/lC7F3fV5jPM" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="project" onclick="toggleVideo('v2')">
+        <img src="https://img.youtube.com/vi/iLEqznlnLvQ/hqdefault.jpg" class="thumb" />
+        <h3>2025 Cyrus Tang Foundation Music Summer Camp – Documentary</h3>
+        <p class="role">Director & Camera • Global Production (China)</p>
+
+        <div id="v2" class="video hidden">
+          <iframe src="https://www.youtube.com/embed/iLEqznlnLvQ" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="project" onclick="toggleVideo('v3')">
+        <img src="https://img.youtube.com/vi/ieR-T3wxkYw/hqdefault.jpg" class="thumb" />
+        <h3>Big Shoulders Fund × NAMI Chicago</h3>
+        <p class="role">Producer & Editor • Indiana</p>
+
+        <div id="v3" class="video hidden">
+          <iframe src="https://www.youtube.com/embed/ieR-T3wxkYw" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="project" onclick="toggleVideo('v4')">
+        <img src="https://img.youtube.com/vi/mhWSlULTgzI/hqdefault.jpg" class="thumb" />
+        <h3>2024 Women in Wellness Awards Brunch</h3>
+        <p class="role">Producer & Editor • Chicago</p>
+
+        <div id="v4" class="video hidden">
+          <iframe src="https://www.youtube.com/embed/mhWSlULTgzI" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="project" onclick="toggleVideo('v5')">
+        <img src="https://img.youtube.com/vi/R4DZ6pdBeDU/hqdefault.jpg" class="thumb" />
+        <h3>Cat City</h3>
+        <p class="role">Producer • Chicago</p>
+
+        <div id="v5" class="video hidden">
+          <iframe src="https://www.youtube.com/embed/R4DZ6pdBeDU" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="project" onclick="toggleVideo('v6')">
+        <img src="https://img.youtube.com/vi/YrFPb5Pmof4/hqdefault.jpg" class="thumb" />
+        <h3>Data Management for Student Success — Toolkit</h3>
+        <p class="role">Project Manager & Producer • Washington D.C.</p>
+
+        <div id="v6" class="video hidden">
+          <iframe src="https://www.youtube.com/embed/YrFPb5Pmof4" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="project" onclick="toggleVideo('v7')">
+        <img src="https://vumbnail.com/1083612453.jpg" class="thumb" />
+        <h3>College Possible Chicago</h3>
+        <p class="role">Producer • Chicago</p>
+
+        <div id="v7" class="video hidden">
+          <iframe src="https://player.vimeo.com/video/1083612453?h=a7b657a789" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+
+    <div class="testimonial">
+      <p>
+        "Kyra is a videographer who can bring your vision to life to amplify your organization's message.
+        Over the past two years, I've had the pleasure of working with Kyra on several projects that have helped
+        elevate my organization's impact. She exhibits professionalism and efficiency at every stage of the
+        creative and project process. I can't recommend Kyra enough as a videographer for your organization's
+        project."
+      </p>
+      <span>— Camesha L. Jones-Brandon, Founder, Sista Afya</span>
+    </div>
+
+    <div class="testimonial">
+      <p>
+        "Kyra Mitchell is a dream to work with! She brings deep experience and a multifaceted skill set to every
+        project—qualities that make her an ideal collaborator on layered documentary work. Kyra consistently
+        translates vision into compelling narrative through lines and elevates every interview with thoughtful,
+        incisive questions. Her professionalism, communication, and creative integrity make her an exceptional
+        collaborator I trust completely."
+      </p>
+      <span>— Kirsten Leenaars, Interdisciplinary Video Artist & Professor, SAIC</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <a class="email" href="mailto:kyra.mitchell.banire@gmail.com">
+      kyra.mitchell.banire@gmail.com
+    </a>
+  </section>
+
+  <footer>
+    © 2025 Kyra Mitchell — Cinematic Portfolio
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
