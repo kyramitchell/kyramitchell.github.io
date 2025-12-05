@@ -190,3 +190,75 @@ footer {
   font-weight: bold;
   letter-spacing: 0.05em;
 }
+/* SECTION DIVIDER */
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background: #2a2a2a;
+  margin: 50px 0;
+}
+
+/* WBEZ NPR SECTION */
+.wbez {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 20px 60px;
+  text-align: center;
+}
+
+.wbez-title {
+  font-size: 32px;
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+}
+
+.wbez-subtitle {
+  color: #a7a7a7;
+  margin-bottom: 40px;
+  font-size: 16px;
+  letter-spacing: 0.07em;
+}
+
+/* ITEM LIST */
+.wbez-item {
+  margin-bottom: 40px;
+}
+
+.wbez-item h3 {
+  margin-bottom: 6px;
+}
+
+.wbez-item h3 a {
+  color: #d6a86b;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.wbez-item h3 a:hover {
+  opacity: 0.8;
+}
+
+.wbez-role {
+  margin-top: 3px;
+  color: #a7a7a7;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+/* BUTTON */
+.wbez-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #d6a86b;
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.wbez-button:hover {
+  opacity: 0.9;
+}
