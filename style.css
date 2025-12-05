@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  background: #0c0c0c;
+  color: #f5f5f5;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111;
+  padding: 14px 0;
+  border-bottom: 1px solid #2a2a2a;
+  z-index: 999;
+}
+
+.header-inner {
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+  letter-spacing: 0.15em;
+  font-size: 20px;
+}
+
+.title {
+  margin: 0;
+  color: #a7a7a7;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+/* HERO */
+.hero {
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.hero-name {
+  font-size: 48px;
+  letter-spacing: 0.15em;
+}
+
+.hero-title {
+  color: #a7a7a7;
+  letter-spacing: 0.2em;
+}
+
+.view-work-btn {
+  margin-top: 25px;
+  background: #d6a86b;
+  padding: 14px 26px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ABOUT */
+.about {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* WORK SECTION */
+.work {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.work h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.project {
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.thumb {
+  width: 100%;
+  border-radius: 8px;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.thumb:hover {
+  opacity: 1;
+}
+
+.project h3 {
+  margin: 12px 0 4px;
+}
+
+.role {
+  color: #a7a7a7;
+  font-size: 14px;
+}
+
+.video {
+  margin-top: 15px;
+}
+
+.video iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+  border-left: 3px solid #d6a86b;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.email {
+  color: #d6a86b;
+  font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: #a7a7a7;
+  padding: 40px 0;
+  font-size: 14px;
+}
