@@ -131,3 +131,62 @@ footer {
   padding: 40px 0;
   font-size: 14px;
 }
+/* WBEZ NPR SECTION */
+.wbez {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  border-top: 1px solid #2a2a2a;
+}
+
+.wbez h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  letter-spacing: 0.12em;
+}
+
+.wbez-subtitle {
+  text-align: center;
+  color: #a7a7a7;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.wbez-item {
+  margin-bottom: 35px;
+}
+
+.wbez-item h3 a {
+  color: #d6a86b;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.wbez-item h3 a:hover {
+  text-decoration: underline;
+}
+
+.wbez-role {
+  margin-top: 4px;
+  color: #a7a7a7;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+
+/* BUTTON */
+.wbez-button-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.wbez-button {
+  display: inline-block;
+  padding: 14px 26px;
+  background: #d6a86b;
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
